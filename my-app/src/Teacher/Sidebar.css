@@ -1,0 +1,373 @@
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unstyled a {
+  text-decoration: none;
+}
+
+.list-inline {
+  overflow: hidden;
+}
+
+.list-inline li {
+  float: left;
+}
+
+.sidebar-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 14.5em;
+  background: #1a1a1a;
+  padding-top: 20px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.logo a {
+  display: block;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul {
+  border-top: solid 1px #333;
+}
+
+.main-nav li {
+  border-bottom: solid 1px #333;
+  display: block;
+  padding: 1.2rem;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.main-nav li:hover {
+  background: #333;
+}
+
+.main-nav a {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Add any additional styling you desire */
+.time{
+  margin-left: 300px;
+}
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 300px; /* Add left margin */
+  margin-top: 30px;
+}
+
+.Coursecard {
+  max-width: calc(30% - 20px); /* Adjust the max-width as needed to decrease card size */
+  flex-basis: calc(30% - 20px); /* Ensure three columns per row */
+  margin-bottom: 20px; /* Optional margin between rows */
+}
+.content_main {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+}
+
+.file-upload-container {
+  display: flex;
+  flex-direction: row; /* Change to row to align inputs horizontally */
+  align-items: center;
+}
+
+.file-upload-container input {
+  width: 250px; /* Set your desired width for all inputs */
+  margin-right: 15px; /* Add margin to separate inputs */
+  margin-bottom: 15px;
+  padding: 8px; /* Optional: Add padding for better aesthetics */
+}
+
+.upload-button-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+}
+
+.upload-button {
+  width: 200px; /* Set your desired width for the button */
+  margin-top: 15px;
+  padding: 10px; /* Optional: Add padding for better aesthetics */
+}
+/* Add your CSS styles here */
+.pdf-list-container {
+  margin: 20px auto;
+  margin-left: 200px;
+  padding: 10px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.pdf-list-container h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+  margin-left: 750px;
+  margin-top: 50px;
+}
+
+.pdf-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.pdf-list-item {
+  margin-left: 90px;
+  margin-bottom: 40px;
+  padding: 8px;
+  cursor: pointer;
+  transition: border-bottom 0.3s ease, color 0.3s ease; /* Add color transition for smooth hover effect */
+  color: #1a1a1a;
+  font-weight: bold;
+  position: relative; /* Required for absolute positioning of the underline */
+}
+
+.pdf-list-item::after {
+  content: ''; /* Create a pseudo-element for the underline */
+  position: absolute;
+  margin-left: 75px;
+  left: 0;
+  bottom: 0;
+  width: 400px;
+  height: 2px; /* Set the height of the underline */
+  background-color: transparent; /* Initial background color */
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.pdf-list-item:hover::after {
+  background-color: #1a1a1a; /* Change the background color on hover */
+}
+
+.pdf-list-item:hover {
+  color: #1a1a1a; /* Change text color on hover */
+}
+
+
+/* Add more styles as needed */
+
+
+.date{
+  font-size: 30px;
+}
+.h1{
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.date {
+  font-size: 25px;
+  color: #555;
+  margin-bottom: 8px;
+  padding: 10px;
+  margin-left: 0px;
+}
+.button-container {
+  margin-top: 10px;
+  margin-left: 200px;
+  display: flex;
+}
+.button-container p{
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.download-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #3f2e2e;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 40px;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #218838;
+}
+.heading{
+  margin-left: 920px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: #333;
+}
+.name{
+  margin-left: 930px;
+  margin-bottom: 60px;
+}
+.subheading {
+  color: #333; /* You can change the color to your preference */
+  font-size: 30px; /* Adjust the font size as needed */
+  margin-left: 320px;
+  /* Add any additional styles you want for your subheading */
+}
+/* TeacherProfile.css */
+
+.profile-container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 1000px;
+  margin-top: 60px;
+  margin-left: 600px;
+  height: 600px;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info p {
+  margin-bottom: 10px;
+}
+
+.profheader {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+.file-upload-container1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.file-upload-container1 input {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.upload-button-container1 {
+  margin-top: 10px;
+}
+
+.upload-button1 {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.upload-button1:hover {
+  background-color: #45a049;
+}
+.attendance-container {
+  text-align: center;
+  margin: 20px;
+  width: 300px;
+  background-color: #f4f4f4; /* Light background color */
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 8px; /* Border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  padding: 10px; /* Padding for content inside the container */
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.attendance-info {
+  margin-top: 20px;
+}
+
+.attendance-box {
+  width: 100px; /* Full width of the container */
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.attendance-progress {
+  height: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  transition: width 0.5s; /* Add smooth transition effect */
+}
+.courses-container1 {
+  width: 1500px;
+  display: flex;
+  margin-left: 300px;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 60px; /* Adjust background color as needed */
+}
+
+.courses-container2 {
+  display: flex;
+  gap: 20px;
+}
+
+/* Style for each box */
+.courses-container2 > div {
+  transition: transform 0.3s, cursor 0.3s;
+}
+
+.courses-container2 > div:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.courses-container3 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 130px;
+  margin-left: 400px;
+  width: 600px;
+}
+
+.course-item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.course-item .present {
+  color: green !important; /* Use !important to override conflicting styles */
+}
+
+.course-item .not-present {
+  color: red !important; /* Use !important to override conflicting styles */
+}

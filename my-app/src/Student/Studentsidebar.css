@@ -1,0 +1,150 @@
+/* *,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.unstyled a {
+  text-decoration: none;
+}
+
+.list-inline {
+  overflow: hidden;
+}
+.list-inline li {
+  float: left;
+}
+
+.sidebar-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 14.5em;
+  background: #666666;
+}
+
+.logo {
+  text-transform: lowercase;
+  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.logo a {
+  display: block;
+  padding: 1.65rem 0;
+  font-size: 1.2rem;
+  color: #dfdbd9;
+  text-decoration: none;
+}
+/* .logo a:hover {
+  color: #fff;
+}
+.logo a:hover span {
+  color: #df4500;
+}
+.logo span {
+  font-weight: 700;
+  transition: 0.15s linear color;
+} 
+
+.main-nav ul {
+  border-top: solid 1px #f1f1f1;
+}
+.main-nav li {
+  border-bottom: solid 0.5px #818181;
+  display: block;
+  padding: 1.2rem;
+  text-align: center;
+}
+.main-nav li:hover {
+  background: #3f3f3f;
+}
+.main-nav a {
+  font-size: 1.2rem;
+  color: #dfdbd9;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+} */
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.unstyled {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.unstyled a {
+  text-decoration: none;
+}
+
+.list-inline {
+  overflow: hidden;
+}
+
+.list-inline li {
+  float: left;
+}
+
+.sidebar-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 14.5em;
+  background: #1a1a1a;
+  padding-top: 20px;
+}
+
+.logo {
+  text-transform: uppercase;
+  font: 300 2em "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.logo a {
+  display: block;
+  padding: 1.5rem 0;
+  font-size: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-nav ul {
+  border-top: solid 1px #333;
+}
+
+.main-nav li {
+  border-bottom: solid 1px #333;
+  display: block;
+  padding: 1.2rem;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+
+.main-nav li:hover {
+  background: #333;
+}
+
+.main-nav a {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* Add any additional styling you desire */
